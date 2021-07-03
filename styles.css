@@ -4,6 +4,12 @@
         url('../fonts/Roboto-Regular.ttf');
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+
 header {
     position: -webkit-sticky;
     position: sticky;
@@ -11,8 +17,12 @@ header {
     z-index: 1;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+#topheader{
+    background-color: #D1891C;
+}
+
+#hero{
+    color: white;
 }
 
 h2 {
@@ -40,8 +50,13 @@ button{
 
 }
 
+/*CARDS*/
+
 #cards {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin: 10%;
     
    
@@ -52,6 +67,8 @@ button{
     background-color: #F3F3F3;
     margin: 1%;
 }
+
+/*POR ARRIBA DE MOBILE EN ADELANTE*/
 
 @media only screen and (min-width : 600px) {
     .card {
