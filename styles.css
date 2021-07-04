@@ -58,6 +58,8 @@ main{
    
     background-color: #F3F3F3;
     margin: 1%;
+    width: 450px;
+    height: 600px;
 }
 
 h2 {
@@ -129,7 +131,7 @@ footer {
     background-color: #00669F;
     color: white;
     border-radius: 3rem;
-    position: absolute;
+    position: fixed;
     left: 88%;
     top: 160%;
     width: 65px;
@@ -143,14 +145,14 @@ footer {
     justify-content: center;
 }
 
-/*POR ARRIBA DE MOBILE (TABLET O DESKTOP) EN ADELANTE*/
+/*ENTRE 650 Y 925 PIXELES*/
 
-@media only screen and (min-width : 600px) {
+@media only screen and (min-width : 650px) and (max-width: 925px) {
     .card {
         display: inline-block;
         background-color: #F3F3F3;
-        width: 30%;
-        height: auto;    
+        width: 320px;
+        height: 500px;    
     }
 
     .row{
@@ -171,4 +173,21 @@ footer {
         padding-bottom: 9vh;
     }
     
+}
+
+/*MAS DE 950 PIXELES*/
+
+@media (min-width: 926px){
+
+    .card{
+        width: 450px;
+        height: 600px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
