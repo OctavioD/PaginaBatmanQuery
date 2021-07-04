@@ -128,13 +128,21 @@ footer {
 #icono-suma{
     background-color: #00669F;
     color: white;
-    border-radius: 1rem;
+    border-radius: 3rem;
     position: absolute;
-    left: 95%;
-    top: 40%;
+    left: 88%;
+    top: 160%;
+    width: 1.4vw;
+    height: 1.4vh;
+    font-size: xxx-large;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-/*POR ARRIBA DE MOBILE EN ADELANTE*/
+/*POR ARRIBA DE MOBILE (TABLET O DESKTOP) EN ADELANTE*/
 
 @media only screen and (min-width : 600px) {
     .card {
@@ -143,5 +151,13 @@ footer {
         width: 30%;
         height: auto;    
     }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
     
 }
