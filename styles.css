@@ -48,10 +48,17 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 10%;
-    height: 90%;
-    
+    height: 100%;
+    align-content: space-between;
    
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
 }
 
 .card {
@@ -147,7 +154,7 @@ footer {
 
 /*ENTRE 650 Y 925 PIXELES*/
 
-@media only screen and (min-width : 650px) and (max-width: 925px) {
+@media only screen and (min-width : 700px) and (max-width: 925px) {
     .card {
         display: inline-block;
         background-color: #F3F3F3;
@@ -162,7 +169,7 @@ footer {
     }
 
     main{
-        height: 200vh;
+        height: 210vh;
     }
 
     #cards{
@@ -178,6 +185,10 @@ footer {
 /*MAS DE 950 PIXELES*/
 
 @media (min-width: 926px){
+
+    main{
+        height: 263vh;
+    }
 
     .card{
         width: 450px;
