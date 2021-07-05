@@ -171,20 +171,14 @@ footer {
 
 /*ENTRE 650 Y 925 PIXELES*/
 
-@media only screen and (min-width : 700px) and (max-width: 925px) {
+@media only screen and (min-width : 750px) and (max-width: 925px) {
 
     body{
         font-size: 20px;
     }
 
-    .row{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
     main{
-        height: 210vh;
+        height: 600vh;
     }
 
     #cards{
@@ -195,6 +189,11 @@ footer {
         padding-bottom: 9vh;
     }
     
+    .card{
+        width: 700px;
+        height: 1400px;
+    }
+
 }
 
 /*MAS DE 950 PIXELES*/
@@ -206,13 +205,18 @@ footer {
     }
 
     main{
-        height: 263vh;
+        height: 300vh;
     }
 
     .row{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .card{
+        width: 700px;
+        height: 1400px;
     }
 
 }
