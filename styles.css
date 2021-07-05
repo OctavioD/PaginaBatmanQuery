@@ -177,13 +177,15 @@ footer {
     }
 
     #cards{
-        height: 600vh;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        padding-top: 7vh;
+        height: 820vh;
+        padding-top: 21vh;
         padding-bottom: 9vh;
     }
     
+    .row{
+        height: 49%;
+    }
+
     .card{
         width: 700px;
         height: 1400px;
@@ -204,11 +206,11 @@ footer {
     }
 
     #cards{
-    height: 400vh;
-    padding-top: 17vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: auto;
+        height: 400vh;
+        padding-top: 17vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: auto;
     }
 
     .row{
