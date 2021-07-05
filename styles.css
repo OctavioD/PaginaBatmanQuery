@@ -42,7 +42,8 @@ header {
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-   
+    padding-top: 10vh;
+    align-items: center;
 }
 
 .row{
@@ -50,15 +51,15 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: auto;
+    height: 45%;
 }
 
 .card {
    
     background-color: #F3F3F3;
     margin: 1%;
-    width: 806px;
-    height: 1427px;
+    width: 300px;
+    height: 600px;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
     border-bottom-left-radius: 0.8rem;
@@ -143,6 +144,10 @@ footer {
     align-items: center;
 }
 
+#github{
+    display: none;
+}
+
 /*BOTÓN*/
 
 #icono-suma{
@@ -184,6 +189,10 @@ footer {
         height: 1400px;
     }
 
+    #github{
+        display: inline-block;
+    }
+
 }
 
 /*MAS DE 950 PIXELES*/
@@ -206,11 +215,16 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        height: auto;
     }
 
     .card{
         width: 550px;
         height: 1100px;
+    }
+
+    #github{
+        display: inline-block;
     }
 
 }
