@@ -37,7 +37,7 @@ header {
 /*CARDS*/
 
 #cards {
-    height: 570vh;
+    height: 350vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -52,7 +52,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 45%;
+    height: 47%;
 }
 
 .card {
@@ -189,18 +189,18 @@ footer {
     }
 
     #cards{
-        height: 820vh;
+        height: 490vh;
         padding-top: 21vh;
         padding-bottom: 9vh;
     }
     
     .row{
-        height: 49%;
+        height: 48%;
     }
 
     .card{
         width: 700px;
-        height: 1400px;
+        height: 1100px;
     }
 
     #github{
