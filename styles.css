@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    margin: 0px;
 }
 
 /*HEADER*/
@@ -63,8 +64,8 @@ main{
    
     background-color: #F3F3F3;
     margin: 1%;
-    width: 450px;
-    height: 750px;
+    width: 806px;
+    height: 1427px;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
     border-bottom-left-radius: 0.8rem;
@@ -143,6 +144,9 @@ footer {
 
 #copyright {
     padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*BOTÓN*/
@@ -171,13 +175,6 @@ footer {
 
     body{
         font-size: 20px;
-    }
-
-    .card {
-        display: inline-block;
-        background-color: #F3F3F3;
-        width: 325px;
-        height: 536px;    
     }
 
     .row{
@@ -210,11 +207,6 @@ footer {
 
     main{
         height: 263vh;
-    }
-
-    .card{
-        width: 450px;
-        height: 750px;
     }
 
     .row{
