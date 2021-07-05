@@ -6,15 +6,13 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /*HEADER*/
 
 header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
+    position: fixed;
     z-index: 1;
 }
 
@@ -37,8 +35,6 @@ header {
 
 main{
     height: 570vh;
-    display: flex;
-    align-items: center;
 }
 
 /*CARDS*/
@@ -49,7 +45,7 @@ main{
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
-    align-content: space-between;
+    width: 100%;
    
 }
 
@@ -67,30 +63,43 @@ main{
     margin: 1%;
     width: 450px;
     height: 600px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    box-shadow: 2px 6px 9px grey;
 }
 
 h2 {
     text-align: center;
+    font-size: 1.8em;
+    margin-top: 0px;
+    position: relative;
+    bottom: 2em;
+    font-weight: 500;
 }
 
 article p {
     display: block;
     text-align: justify;
-    padding: 10%;
-    font-size: 0.9em;
+    padding: 5%;
+    font-size: 1em;
+    position: relative;
+    bottom: 5em;
+    margin: 0px;
 }
 
 button{
     position: relative;
-    width: 80%;
-    left: 10%;
-    bottom: 10px;
+    left: 30%;
+    bottom: 5em;
     background-color: #00669F;
-    color: #ffffff;
-    padding: 6%;
     border: 0px;
+    color: #ffffff;
+    padding: 1em;
     font-size: 1.1em;
     font-weight: 500;
+    width: 9em;
 
 }
 
@@ -114,9 +123,9 @@ button{
     position: relative;
     left: 30%;
     top: -4em;
-    border-radius: 50%;
+    border-radius: 8.5rem;
     width: 40%;
-    box-shadow: 0px 10px 7px;
+    box-shadow: 0px 10px 7px grey;
 
 }
 
@@ -155,6 +164,11 @@ footer {
 /*ENTRE 650 Y 925 PIXELES*/
 
 @media only screen and (min-width : 700px) and (max-width: 925px) {
+
+    body{
+        font-size: 20px;
+    }
+
     .card {
         display: inline-block;
         background-color: #F3F3F3;
@@ -185,6 +199,10 @@ footer {
 /*MAS DE 950 PIXELES*/
 
 @media (min-width: 926px){
+
+    body{
+        font-size: 22px;
+    }
 
     main{
         height: 263vh;
