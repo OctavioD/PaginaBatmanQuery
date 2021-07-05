@@ -44,6 +44,7 @@ header {
     width: 100%;
     padding-top: 10vh;
     align-items: center;
+
 }
 
 .row{
@@ -103,6 +104,9 @@ button{
     font-size: 1rem;
     font-weight: 500;
     width: 9rem;
+    position: relative;
+    bottom: 2.5rem;
+    left: 5.3rem;
 
 }
 
@@ -174,7 +178,7 @@ footer {
 
 /*ENTRE 650 Y 925 PIXELES*/
 
-@media only screen and (min-width : 750px) and (max-width: 925px) {
+@media only screen and (min-width : 750px) and (max-width: 1199px) {
 
     body{
         font-size: 20px;
@@ -210,10 +214,10 @@ footer {
     }
 
     #cards{
-        height: 400vh;
-        padding-top: 17vh;
-        padding-left: 5vw;
-        padding-right: 5vw;
+        height: 315vh;
+        padding-top: 19vh;
+        padding-left: 9vw;
+        padding-right: 9vw;
         width: auto;
     }
 
@@ -222,6 +226,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         height: auto;
+        width: -webkit-fill-available;
     }
 
     .card{
