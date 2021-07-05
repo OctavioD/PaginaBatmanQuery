@@ -64,9 +64,9 @@ main{
     background-color: #F3F3F3;
     margin: 1%;
     width: 450px;
-    height: 700px;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    height: 750px;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     box-shadow: 2px 6px 9px grey;
@@ -177,7 +177,7 @@ footer {
         display: inline-block;
         background-color: #F3F3F3;
         width: 325px;
-        height: 500px;    
+        height: 536px;    
     }
 
     .row{
@@ -214,7 +214,7 @@ footer {
 
     .card{
         width: 450px;
-        height: 700px;
+        height: 750px;
     }
 
     .row{
