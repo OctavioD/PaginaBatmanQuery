@@ -37,12 +37,12 @@ header {
 /*CARDS*/
 
 #cards {
-    height: 350vh;
+    height: 415vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 18vh;
     align-items: center;
 
 }
@@ -52,7 +52,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 47%;
+    height: 48%;
 }
 
 .card {
@@ -60,16 +60,17 @@ header {
     background-color: #F3F3F3;
     margin: 1%;
     width: 300px;
-    height: 600px;
+    height: 660px;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 0.8rem;
     border-bottom-right-radius: 0.8rem;
     box-shadow: 2px 6px 9px grey;
+    padding-bottom: 1%;
 }
 
 #texto{
-    height: 40%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -92,6 +93,7 @@ article p {
     text-align: justify;
     padding: 5%;
     font-size: 1em;
+    margin: 0%;
 
 }
 
@@ -100,15 +102,12 @@ button{
     background-color: #00669F;
     border: 0px;
     color: #ffffff;
-    padding-top: 2rem;
     font-size: 1rem;
     font-weight: 500;
-    width: 9rem;
     position: relative;
-    left: 30%;
-    bottom: 8%;
     width: 40%;
-    padding-bottom: 2rem;
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
 
 }
 
@@ -189,18 +188,18 @@ footer {
     }
 
     #cards{
-        height: 490vh;
+        height: 555vh;
         padding-top: 21vh;
         padding-bottom: 9vh;
     }
     
     .row{
-        height: 48%;
+        height: 49%;
     }
 
     .card{
-        width: 700px;
-        height: 1100px;
+        width: 500px;
+        height: 825px;
     }
 
     #github{
@@ -235,7 +234,7 @@ footer {
 
     .card{
         width: 500px;
-        height: 900px;
+        height: 825px;
     }
 
     #github{
