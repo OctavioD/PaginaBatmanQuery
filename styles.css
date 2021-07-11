@@ -37,7 +37,7 @@ header {
 /*CARDS*/
 
 #cards {
-    height: 415vh;
+    height: 365vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -67,6 +67,30 @@ header {
     border-bottom-right-radius: 0.8rem;
     box-shadow: 2px 6px 9px grey;
     padding-bottom: 1%;
+}
+
+#imagen-fondo{
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    height: 35%;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+#imagen-fondo.batman{
+    background-image: url(./img/Fondo_batman.png);
+}
+
+#imagen-fondo.maravilla{
+    background-image: url(./img/fondo_maravilla.png);
+}
+
+#imagen-fondo.superman{
+    background-image: url(./img/fondo_superman.png);
+}
+
+#imagen-fondo.harley{
+    background-image: url(./img/fondo_harley2.png);
 }
 
 #texto{
@@ -166,8 +190,8 @@ footer {
     color: white;
     border-radius: 3rem;
     position: fixed;
-    left: 88%;
-    top: 160%;
+    left: 82%;
+    top: 40vh;
     width: 65px;
     height: 65px;
     padding: 0px;
@@ -235,6 +259,10 @@ footer {
     .card{
         width: 500px;
         height: 825px;
+    }
+
+    #icono-suma{
+        left: 92%;
     }
 
     #github{
